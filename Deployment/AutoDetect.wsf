@@ -1,0 +1,56 @@
+<job id="FindDeployRoot">
+<script language="VBScript">
+Option Explicit
+
+' Auto-detect the deployment root and launch LiteTouch
+Function FindDeployRoot()
+    Dim objFSO, objShell, strDriveLetter, strDeployRoot
+    Set objFSO = CreateObject("Scripting.FileSystemObject")
+    Set objShell = CreateObject("WScript.Shell")
+    
+    ' Check each drive for Deploy folder
+    For Each strDriveLetter in Array("C:", "D:", "E:", "F:", "G:", "H:", "I:", "J:", "K:", "L:", "M:", "N:", "O:", "P:", "Q:", "R:", "S:", "T:", "U:", "V:", "W:", "X:", "Y:", "Z:")
+        If objFSO.DriveExists(strDriveLetter) Then
+            If objFSO.FolderExists(strDriveLetter & "\Deploy") Then
+                If objFSO.FileExists(strDriveLetter & "\Deploy\Scripts\LiteTouch.vbs") Then
+                    ' Found it! Update Bootstrap.ini
+                    strDeployRoot = strDriveLetter & "\Deploy"
+                    UpdateBootstrapINI strDeployRoot
+                    ' Launch LiteTouch
+                    objShell.Run "cscript.exe " & strDeployRoot & "\Scripts\LiteTouch.vbs", 1, False
+                    WScript.Quit(0)
+                End If
+            End If
+        End If
+    Next
+    
+    ' If we get here, we didn't find the deployment files
+    WScript.Echo "ERROR: Could not find deployment files on any drive!"
+    WScript.Quit(1)
+End Function
+
+' Update bootstrap.ini with the correct DeployRoot
+Sub UpdateBootstrapINI(strNewDeployRoot)
+    Dim objFSO, objBootstrap, strContent
+    Set objFSO = CreateObject("Scripting.FileSystemObject")
+    
+    If objFSO.FileExists(strNewDeployRoot & "\Control\Bootstrap.ini") Then
+        ' Read current bootstrap.ini
+        Set objBootstrap = objFSO.OpenTextFile(strNewDeployRoot & "\Control\Bootstrap.ini", 1)
+        strContent = objBootstrap.ReadAll
+        objBootstrap.Close
+        
+        ' Update DeployRoot value
+        strContent = Replace(strContent, "DeployRoot=X:\Deploy", "DeployRoot=" & strNewDeployRoot)
+        
+        ' Write updated bootstrap.ini
+        Set objBootstrap = objFSO.OpenTextFile(strNewDeployRoot & "\Control\Bootstrap.ini", 2)
+        objBootstrap.Write strContent
+        objBootstrap.Close
+    End If
+End Sub
+
+' Main execution
+FindDeployRoot()
+</script>
+</job>
