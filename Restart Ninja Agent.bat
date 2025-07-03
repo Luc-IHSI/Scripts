@@ -1,0 +1,1 @@
+start cmd /c "ping 1.1.1.1 -n 75 -w 1000 & taskkill /im ninjarmmagent.exe /f & net stop NinjaRMMAgent & ping 1.1.1.1 -n 75 -w 1000 & net start NinjaRMMAgent"

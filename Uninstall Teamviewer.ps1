@@ -16,10 +16,10 @@ if (Test-Path $teamViewerUninstallPath) {
 
 # Remove leftover files and folders
 $foldersToDelete = @(
-    "C:\Program Files (x86)\TeamViewer",
-    "C:\ProgramData\TeamViewer",
-    "$env:APPDATA\TeamViewer",
-    "$env:LOCALAPPDATA\TeamViewer"
+    "C:\Program Files (x86)\TeamViewer", 
+    "C:\ProgramData\TeamViewer",        
+    "$env:APPDATA\TeamViewer",          
+    "$env:LOCALAPPDATA\TeamViewer"      
 )
 foreach ($folder in $foldersToDelete) {
     if (Test-Path $folder) {
@@ -29,9 +29,9 @@ foreach ($folder in $foldersToDelete) {
 
 # Remove leftover registry entries
 $registryPathsToDelete = @(
-    "HKLM:\SOFTWARE\TeamViewer",
-    "HKLM:\SOFTWARE\WOW6432Node\TeamViewer",
-    "HKCU:\SOFTWARE\TeamViewer"
+    "HKLM:\SOFTWARE\TeamViewer",            
+    "HKLM:\SOFTWARE\WOW6432Node\TeamViewer", 
+    "HKCU:\SOFTWARE\TeamViewer"             
 )
 foreach ($regPath in $registryPathsToDelete) {
     if (Test-Path $regPath) {
