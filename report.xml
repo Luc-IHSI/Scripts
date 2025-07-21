@@ -1,0 +1,3932 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.758100400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">   65536</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   19045</Data>
+		<Data Name="NumberOfProcessors">       1</Data>
+		<Data Name="EndTime">133968377817880594</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">   20000</Data>
+		<Data Name="LogFileMode">0x10006002</Data>
+		<Data Name="BuffersWritten">       2</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       4</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2803</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">133967893695000000</Data>
+		<Data Name="PerfFreq">10000000</Data>
+		<Data Name="StartTime">133968377817581004</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">Microsoft.Windows.UpdateAssistantApp</Data>
+		<Data Name="LogFileNameString">C:\Program Files (x86)\WindowsInstallationAssistant\Logs\UpdateAssistantApp.001.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.758100400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>PartitionInfoExtensionV2</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.759586900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.759590500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState Uninitialized, m_State Uninitialized.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.759599000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting state: InitializingApplication</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>1</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x800000000001</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761411000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="PartA_PrivTags">2147483648</Data>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="GlobalEventCounter">50</Data>
+		<Data Name="CV">gLx8YKQKuUybqkMc.0</Data>
+		<Data Name="UpdateAssistantStateInitializingApplication">true</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>UpdateAssistantStartState</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761415600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Perform sync task: state InitializingApplication</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761418600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting PerformTaskInternal in thread: [8424]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761425400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Function: CActionBase::Execute</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761428200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Executing action for state [InitializingApplication]...</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761431100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Function: CAppInitializationAction::InternalExecute</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761532000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Function: InitializeLog</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761578700-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[InitializeLog] Start...</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761587800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::LogCommandLineParameters] Command line parameters: &quot;C:\Program Files (x86)\WindowsInstallationAssistant\Windows10UpgraderApp.exe&quot;  /SkipSelfUpdate /SkipEULA /SunValley /QuietInstall /NoRestartUI</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761590700-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::LogCommandLineParameters] User selected to skip CheckUpgrade</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761593500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::LogCommandLineParameters] User selected to skip EULA</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761596400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::LogCommandLineParameters] User selected to go through Windowns 11 installer</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761599000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::LogCommandLineParameters] User selected QuietInstall</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761601400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::LogCommandLineParameters] User selected NoRestartUI</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761640600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::LogCommandLineParameters] Setup Client ID is Win10UA:::::</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761642700-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Init Telemetry...</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761645000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Function: InitializeTelemetry</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761650400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[InitializeTelemetry] Assistant Show up time is 2025-07-13 07:49:41:759 (UTC+8)</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761654300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[InitializeTelemetry] wstrExecutablePath = C:\Program Files (x86)\WindowsInstallationAssistant</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.761656500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[InitializeTelemetry] Exe name = Windows10UpgraderApp.exe</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783063600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[WMIHelper::GetRegMachineId]  Open an existing reg key HKLM\SOFTWARE\Microsoft\SQMClient.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783074100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[InitializeTelemetry]  Machine Id is: {90E3742E-83E2-49A3-BC24-017DCC308F4D}</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783077800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[InitializeTelemetry] Windows Version: 10.0 (19045),,producttype=1</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783081300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Function: InitializeClientId</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783084400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Getting configuration UpgradeClientId from config file</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783158700-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Getting configuration PartnerId from config file</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783222000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[ClientId::Parse]  start parsing client id Win10UA:VNL:URL::{37F2A26D-DEAD-4366-80BC-1ACAD7C6F5E9}:[10.0.19045]:[2] </Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783320700-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Current executable file path: C:\Program Files (x86)\WindowsInstallationAssistant\Windows10UpgraderApp.exe</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783324000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Checking file version C:\Program Files (x86)\WindowsInstallationAssistant\Windows10UpgraderApp.exe.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783393900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Current version: major 10004 - minor 4a61138b</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783399400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[ClientId::DumpParseResult] m_partnerName is VNL</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783402600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[ClientId::DumpParseResult] m_externalId is {37F2A26D-DEAD-4366-80BC-1ACAD7C6F5E9}</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783405600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[ClientId::DumpParseResult] m_description is URL::&lt;1.4.19041.5003&gt;:&lt;3&gt;</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783408500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[ClientId::DumpParseResult] m_versionStr is [10.0.19045]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783411000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[ClientId::DumpParseResult] m_archStr is [2]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783423900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::SetClientId] Set ClientId = Win10UA:VNL:URL::&lt;1.4.19041.5003&gt;:&lt;3&gt;:{37F2A26D-DEAD-4366-80BC-1ACAD7C6F5E9}:[10.0.19045]:[2]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783428000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[InitializeClientId] Set Client Id : Win10UA:VNL:URL::{37F2A26D-DEAD-4366-80BC-1ACAD7C6F5E9}:[10.0.19045]:[2]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783442800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::InitializeCV] upgrade CV = aD1ZQtYDQ0+ntXI+.999</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783445200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[InitializeTelemetry] Log telemetry</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783474700-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Current executable file path: C:\Program Files (x86)\WindowsInstallationAssistant\Windows10UpgraderApp.exe</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783477800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Checking file version C:\Program Files (x86)\WindowsInstallationAssistant\Windows10UpgraderApp.exe.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783546900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Current version: major 10004 - minor 4a61138b</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>1</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x800000000001</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.783683600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="PartA_PrivTags">2147483648</Data>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="GlobalEventCounter">51</Data>
+		<Data Name="CV">gLx8YKQKuUybqkMc.0</Data>
+		<Data Name="UpdateAssistantIsDeviceCloverTrail">false</Data>
+		<Data Name="UpdateAssistantExeName">Windows10UpgraderApp.exe</Data>
+		<Data Name="UpdateAssistantOsVersion">10.0 (19045),,1, 256</Data>
+		<Data Name="UpdateAssistantDeviceId">a7254504141f8c2b97303486f98d8a6febfca9e0</Data>
+		<Data Name="UpdateAssistantMachineId">{90E3742E-83E2-49A3-BC24-017DCC308F4D}</Data>
+		<Data Name="UpdateAssistantExternalId">{37F2A26D-DEAD-4366-80BC-1ACAD7C6F5E9}</Data>
+		<Data Name="UpdateAssistantStartTime">2025-07-13 07:49:41:759</Data>
+		<Data Name="UpdateAssistantAppFilePath">C:\Program Files (x86)\WindowsInstallationAssistant\Windows10UpgraderApp.exe</Data>
+		<Data Name="UpdateAssistantReportPath">C:\WINDOWS\TEMP\report.rpt</Data>
+		<Data Name="UpdateAssistantVersionInfo">1.4.19041.5003-3-[URL::&lt;1.4.19041.5003&gt;:&lt;3&gt;]</Data>
+		<Data Name="UpdateAssistantPartnerId">{E52ABFC2-76BB-4908-883F-CA581FDD83F9}</Data>
+		<Data Name="UpdateAssistantUiType">SVUi</Data>
+		<Data Name="UpdateAssistantTargetOSVersion">   26100</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>UpdateAssistantDeviceInformation</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.784249600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Getting configuration Flight from config file</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.784287000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Writing [Default] configuration Flight=slow to config file</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.784553000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Completed PerformTaskInternal in thread: [8424]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:41.784556500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Updating UI InitializingApplication</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.086393600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="45" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">   65536</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   19045</Data>
+		<Data Name="NumberOfProcessors">       1</Data>
+		<Data Name="EndTime">133968377820952267</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">   20000</Data>
+		<Data Name="LogFileMode">0x10006002</Data>
+		<Data Name="BuffersWritten">       2</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       4</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2803</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">133967893695000000</Data>
+		<Data Name="PerfFreq">10000000</Data>
+		<Data Name="StartTime">133968377820863936</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">Microsoft.Windows.UpdateAssistantApp</Data>
+		<Data Name="LogFileNameString">C:\Program Files (x86)\WindowsInstallationAssistant\Logs\UpdateAssistantApp.001.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.086393600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="45" />
+		<Channel />
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>PartitionInfoExtensionV2</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.088295300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="45" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.088299700-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="45" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState InitializingApplication, m_State InitializingApplication.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.088302100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="45" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting state: InitializingStates</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>1</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x800000000001</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.088451800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="45" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="PartA_PrivTags">2147483648</Data>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="GlobalEventCounter">52</Data>
+		<Data Name="CV">gLx8YKQKuUybqkMc.0</Data>
+		<Data Name="UpdateAssistantStateInitializingStates">true</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>UpdateAssistantStartState</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.088455500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="45" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Perform async task: state InitializingStates</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.089001300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="45" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Updating UI InitializingStates</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.089031100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4156" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting PerformTaskInternal in thread: [4156]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.089038000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4156" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Function: CActionBase::Execute</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.089040600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4156" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Executing action for state [InitializingStates]...</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.089043800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4156" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">[CStateManager::ChangeWindowState] Hide window with no icon in system tray</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.089051100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4156" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager get called back with state InitializingStates, hr 0x0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.089055500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4156" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Completed PerformTaskInternal in thread: [4156]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.101530000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">   65536</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   19045</Data>
+		<Data Name="NumberOfProcessors">       1</Data>
+		<Data Name="EndTime">133968377821098469</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">   20000</Data>
+		<Data Name="LogFileMode">0x10006002</Data>
+		<Data Name="BuffersWritten">       2</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       4</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2803</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">133967893695000000</Data>
+		<Data Name="PerfFreq">10000000</Data>
+		<Data Name="StartTime">133968377821015300</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">Microsoft.Windows.UpdateAssistantApp</Data>
+		<Data Name="LogFileNameString">C:\Program Files (x86)\WindowsInstallationAssistant\Logs\UpdateAssistantApp.001.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.101530000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>PartitionInfoExtensionV2</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.101530000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">   65536</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   19045</Data>
+		<Data Name="NumberOfProcessors">       1</Data>
+		<Data Name="EndTime">133968377821098469</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">   20000</Data>
+		<Data Name="LogFileMode">0x10006002</Data>
+		<Data Name="BuffersWritten">       2</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       4</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2803</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">133967893695000000</Data>
+		<Data Name="PerfFreq">10000000</Data>
+		<Data Name="StartTime">133968377821015300</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">Microsoft.Windows.UpdateAssistantApp</Data>
+		<Data Name="LogFileNameString">C:\Program Files (x86)\WindowsInstallationAssistant\Logs\UpdateAssistantApp.001.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.101530000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>PartitionInfoExtensionV2</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.104971800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.104971800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.104976200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState InitializingStates, m_State InitializingStates.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.104976200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState InitializingStates, m_State InitializingStates.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.104979100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.104979100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.104982000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState CheckingUpgrade, m_State InitializingStates.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.104982000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState CheckingUpgrade, m_State InitializingStates.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105005800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Getting configuration NoPostUI from config file</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105005800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Getting configuration NoPostUI from config file</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105223000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting state: ShowingEULA</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105223000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting state: ShowingEULA</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105226000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105226000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105229100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState UserPerformAcceptEULA, m_State ShowingEULA.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105229100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState UserPerformAcceptEULA, m_State ShowingEULA.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>1</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x800000000001</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105362400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="PartA_PrivTags">2147483648</Data>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="GlobalEventCounter">53</Data>
+		<Data Name="CV">gLx8YKQKuUybqkMc.0</Data>
+		<Data Name="UpdateAssistantStateAcceptEULA">true</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>UpdateAssistantStartState</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>1</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x800000000001</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105362400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="PartA_PrivTags">2147483648</Data>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="GlobalEventCounter">53</Data>
+		<Data Name="CV">gLx8YKQKuUybqkMc.0</Data>
+		<Data Name="UpdateAssistantStateAcceptEULA">true</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>UpdateAssistantStartState</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105365300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting state: UserPerformUpgrade</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105365300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting state: UserPerformUpgrade</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105368000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105368000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Transforming between update assistant states</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105371200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState UserPerformUpgrade, m_State ShowingEULA.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105371200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">State manager originalState UserPerformUpgrade, m_State ShowingEULA.</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105755600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7028" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">AC Power: Attempting to prevent system from sleep</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105755600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7028" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">AC Power: Attempting to prevent system from sleep</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105772600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting state: Downloading</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105772600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting state: Downloading</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105778000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7028" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">AC Power: Successfully set thread exeution state to prevent system from sleep</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105778000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7028" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">AC Power: Successfully set thread exeution state to prevent system from sleep</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105781900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7028" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">isSleepDisabled: 1</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105781900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7028" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">isSleepDisabled: 1</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105785000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7028" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Battery monitor is waitting...</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105785000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7028" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Battery monitor is waitting...</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>1</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x800000000001</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105895800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="PartA_PrivTags">2147483648</Data>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="GlobalEventCounter">54</Data>
+		<Data Name="CV">gLx8YKQKuUybqkMc.0</Data>
+		<Data Name="UpdateAssistantStateDownloading">true</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>UpdateAssistantStartState</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>1</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x800000000001</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105895800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="PartA_PrivTags">2147483648</Data>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="GlobalEventCounter">54</Data>
+		<Data Name="CV">gLx8YKQKuUybqkMc.0</Data>
+		<Data Name="UpdateAssistantStateDownloading">true</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>UpdateAssistantStartState</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105899800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Perform async task: state Downloading</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.105899800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Perform async task: state Downloading</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.106229100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7580" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting PerformTaskInternal in thread: [7580]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.106229100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7580" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Starting PerformTaskInternal in thread: [7580]</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.106236600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7580" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Function: CActionBase::Execute</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.106236600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7580" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Function: CActionBase::Execute</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.106239300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7580" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Executing action for state [Downloading]...</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.106239300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="7580" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Executing action for state [Downloading]...</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.106253100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Updating UI Downloading</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantApp" Guid="{e920a08b-23c4-4b3b-a5e0-4b1458cac1ee}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:42.106253100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="8424" ProcessorID="0" KernelTime="90" UserTime="60" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Updating UI Downloading</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.080504000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">   65536</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   19045</Data>
+		<Data Name="NumberOfProcessors">       1</Data>
+		<Data Name="EndTime">133968377830865536</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">   20000</Data>
+		<Data Name="LogFileMode">0x10006002</Data>
+		<Data Name="BuffersWritten">       2</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       4</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2803</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">133967893695000000</Data>
+		<Data Name="PerfFreq">10000000</Data>
+		<Data Name="StartTime">133968377830805040</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">Microsoft.Windows.UpdateAssistantDownloader</Data>
+		<Data Name="LogFileNameString">C:\Program Files (x86)\WindowsInstallationAssistant\Logs\UpdateAssistantDwnldr.001.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.080504000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>PartitionInfoExtensionV2</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083537200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">GetEsd has been called by the upgrader app</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083540100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Cancelled: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083542000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Edition mismatch: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083544000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">ESD encrypted: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083545400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Is N edition: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083547000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Is 10s: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083548500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Use catalog: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083550000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Msg Size: 256</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083551500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Path Size: 260</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083553000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Download Stage: 2</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083555000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Message: Professional en-US x64</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083557300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Path: C:\WINDOWS\TEMP\26100.1742.240909-0928.ge_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_en-us.esd</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083559300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Products XML: https://go.microsoft.com/fwlink/?linkid=2286082</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083561000-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Target Edition: (null)</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083562500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Target Language: (null)</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083564100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Download current bytes: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083565800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Download total bytes: 3920160752</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083567400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Found OS Edition: Professional</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083569400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Found OS Architecture: x64</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083570900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Found OS Language: en-US</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:49:43.083572600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="15" UserTime="225" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Products file: C:\WINDOWS\TEMP\products.xml</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.026556900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">   65536</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   19045</Data>
+		<Data Name="NumberOfProcessors">       1</Data>
+		<Data Name="EndTime">133968379840312012</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">   20000</Data>
+		<Data Name="LogFileMode">0x10006002</Data>
+		<Data Name="BuffersWritten">       2</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       4</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2803</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">133967893695000000</Data>
+		<Data Name="PerfFreq">10000000</Data>
+		<Data Name="StartTime">133968379840265569</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">Microsoft.Windows.UpdateAssistantDownloader</Data>
+		<Data Name="LogFileNameString">C:\Program Files (x86)\WindowsInstallationAssistant\Logs\UpdateAssistantDwnldr.001.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.026556900-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>PartitionInfoExtensionV2</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028778400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">GetEsd has completed for the upgrader app</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028781700-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Cancelled: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028783800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Edition mismatch: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028785800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">ESD encrypted: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028787200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Is N edition: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028788800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Is 10s: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028790300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Use catalog: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028791800-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Msg Size: 256</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028793200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Path Size: 260</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028794600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Download Stage: 4</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028796500-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Message: Professional en-US x64</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028799400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Path: C:\WINDOWS\TEMP\26100.1742.240909-0928.ge_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_en-us.esd</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028801400-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Products XML: https://go.microsoft.com/fwlink/?linkid=2286082</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028803100-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Target Edition: (null)</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028804600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Target Language: (null)</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028806200-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Download current bytes: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft.Windows.UpdateAssistantDwnldr" Guid="{ed4be075-0e5d-4df3-9532-6fcc5c699c72}" />
+		<EventID>0</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x1</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.028807600-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="4004" ProcessorID="0" KernelTime="16710" UserTime="13155" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="UpdateAssistantVersion">2024.10</Data>
+		<Data Name="Message">Download total bytes: 0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Task>Information</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.285187300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="3208" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">   65536</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   19045</Data>
+		<Data Name="NumberOfProcessors">       1</Data>
+		<Data Name="EndTime">0</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">   20000</Data>
+		<Data Name="LogFileMode">0x10006002</Data>
+		<Data Name="BuffersWritten">       0</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       4</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2803</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">133967893695000000</Data>
+		<Data Name="PerfFreq">10000000</Data>
+		<Data Name="StartTime">133968379842851873</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">Microsoft.Windows.UpdateAssistantInstaller</Data>
+		<Data Name="LogFileNameString">C:\Program Files (x86)\WindowsInstallationAssistant\Logs\UpdateAssistantInstllr.001.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2025-07-12T19:53:04.285187300-04:00" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="8052" ThreadID="3208" ProcessorID="0" KernelTime="30" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-CA">
+		<Opcode>PartitionInfoExtensionV2</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+</Events>
